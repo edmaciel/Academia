@@ -17,6 +17,7 @@ public class Escola {
 	
 	
 	
+	
 	@Column(name="nome_escola", length=30)
 	private String nome;
 	
