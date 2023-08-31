@@ -15,9 +15,6 @@ public class Escola {
 	  @GeneratedValue(strategy=GenerationType.SEQUENCE,generator="seq1")
 	private Long id_escola;
 	
-	
-	
-	
 	@Column(name="nome_escola", length=30)
 	private String nome;
 	
